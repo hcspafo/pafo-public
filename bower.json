@@ -1,0 +1,43 @@
+{
+    "name": "pafo-public-web-package",
+    "version": "0.1.0",
+    "devDependencies": {
+        "angular-mocks": "=1.2.26"
+    },
+    "dependencies": {
+        "bootstrap": "~3.1",
+        "angular": "=1.2.26",
+        "angular-bootstrap": "~0.11.0",
+        "angular-ui-router": "~0.2",
+        "angular-file-upload": "~0.5.6",
+        "angular-ui-utils": "~0.1.1",
+        "angular-ui-select": "=0.9.9",
+        "angular-ui-select2": "~0.0.5",
+        "angular-local-storage": "~0.2.2",
+        "angular-cookies": "=1.2.26",
+        "pafo-common-web-package": "https://github.com/hcspafo/pafo-common.git"
+    },
+    "main": [
+        "./release/pafo-public-web-package.js"
+    ],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "build",
+        "bower_components",
+        "vendor",
+        "karma",
+        "src",
+        "test",
+        "tests",
+        "grunt",
+        "Gruntfile.js",
+        "build.config.js",
+        "proxy.config.js",
+        "package.json",
+        ".bowerrc",
+        "bin/fonts",
+        "bin/index.html",
+        "pom.xml"
+    ]
+}
